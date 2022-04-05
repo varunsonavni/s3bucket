@@ -1,6 +1,6 @@
 
 pipeline {
-  node linux
+  agent linux001
   stages {
     stage('Example') {
       steps {
